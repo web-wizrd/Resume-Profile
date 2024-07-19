@@ -1,0 +1,216 @@
+.entirebody{
+    background:url('Deep Space.jpg');
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background:url('Deep Space.jpg');
+    border-color: #272727;
+}
+
+.name{ 
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffe440;
+    background:url('Deep Space.jpg');
+    flex-grow:.8;
+    font-size: 70px;
+    padding: 35px;
+}
+
+.container{
+    display: flex;
+    gap:1em;
+}
+
+.top-home1{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition-duration: 0.6s;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.top-home2{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
+}
+
+.top-home3{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
+}
+
+.top-home4{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
+}
+
+.top-home5{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
+}
+
+.top-home6{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.top-home1:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition-duration: 0.6s;
+    transform: scale(1.0);
+    animation: fadein 0.6s backwards;
+}
+
+.top-home1:hover::after{
+    content:'Home';
+    transition: 0.2s;
+}
+
+.top-home2:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home2:hover::after{
+    content:'About';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+
+.top-home3:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home3:hover::after{
+    content:'Work';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+
+.top-home4:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home4:hover::after{
+    content:'Project';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+
+.top-home5:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home5:hover::after{
+    content:'Skills';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+.top-home6:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home6:hover::after{
+    content:'Contact';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+
+.material-symbol-outlined{
+    size: 50px;
+}
+
+.shape{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 80%;
+    background-color: #272727;
+}
+
+.footer{
+    color: #ffe440;
+    text-align:center;
+    margin-top: 100cap;
+}
