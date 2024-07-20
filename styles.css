@@ -1,5 +1,5 @@
 .entirebody{
-    background:url('Deep Space.jpg');
+    background:#272727;
 }
 
 .header{
@@ -7,18 +7,25 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    background:url('Deep Space.jpg');
+    background-color: #272727;
     border-color: #272727;
+    filter: blur(100);
 }
 
 .name{ 
     font-size: 30px;
     font-weight: bold;
     color: #ffe440;
-    background:url('Deep Space.jpg');
+    background:#272727;
     flex-grow:.8;
     font-size: 70px;
     padding: 35px;
+}
+
+@media(max-width= 427px){
+    .name{
+        font-size: 30px;
+    }
 }
 
 .container{
@@ -36,9 +43,14 @@
     font-size: 30px;
     border-radius: 15px;
     background-color: #272727;
-    transition-duration: 0.6s;
     position: relative;
-    transition: all 0.3s ease;
+    backdrop-filter: blur;
+}
+
+@media (max-width=427px){
+    .top-home1{
+        font-size: 30px;
+    }
 }
 
 .top-home2{
@@ -118,9 +130,6 @@
     color: #272727;
     border-radius: 1000px;
     transition-duration: 0.6s;
-    transform: scale(1.0);
-    animation: fadein 0.6s backwards;
-    animation-delay: 0.5s;
 }
 
 
@@ -128,18 +137,7 @@
     content: 'Home';
     animation: appear 1s forwards 1s;
   }
-  
-  @keyframes appear {
-    from {
 
-        right: -100px; /* Start outside the view */
-        opacity: 0;    /* Start invisible */
-    }
-    to {
-        right: 0;     /* End position */
-        opacity: 1;   /* Fully visible */
-    }
-  }
 .top-home2:hover{
     background-color: #ffe440;
     color: #272727;
@@ -215,11 +213,138 @@
 
 .shape{
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 400px;
+    height: 400px;
     top: 50%;
-    left: 80%;
+    left: 50%;
     background-color: #272727;
+}
+
+.skills-whole{
+    background-color: #4342429a;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    color:#ffe400;
+    font-size: 500%;    
+}
+
+.skills-details{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.skills-box1{
+    border: 1px white solid;
+    padding: 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.C{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #747474;
+    font-weight:normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ff652f;
+    border: 2px #747474;
+    border-radius: 8px;
+    opacity: 100%;
+}
+
+.C:hover{
+    background-color: #74747480;
+    color:#f1774b;
+    transform: scale(1.1);
+    transition: .6s;
+    border-radius: 10px;
+    font-weight: 200;
+}
+
+.C:hover::backdrop{
+    transition:0.6s;
+    transform: scale(1.19);
+}
+
+.skills-box2{
+    display: flex;
+    justify-content: space-evenly;
+    
+    border: 2px white solid;
+    
+    padding: 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.css{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #747474;
+    font-weight:normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffe400;
+    border: 2px #747474;
+    border-radius: 8px;
+    opacity: 100%;
+}
+
+.css:hover{
+    background-color: #74747480;
+    color: #ffe600ca;
+    transform: scale(1.1);
+    transition: 0.6s;
+    border-radius: 10px;
+    font-weight: 200;
+}
+
+.skills-box3{
+    display: flex;
+    justify-content: space-evenly;
+    
+    border: 2px white solid;
+    
+    padding: 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+.Java{
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    background-color: #747474;
+    font-weight:normal;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #14a76c;
+    border: 2px #747474;
+    border-radius: 8px;
+    opacity: 100%;
+}
+
+.Java:hover{
+    background-color: #74747480;
+    color: #14a76c;
+    transform: scale(1.1);
+    transition: 0.6s;
+    border-radius: 10px;
+    font-weight: 200;
 }
 
 .footer{
