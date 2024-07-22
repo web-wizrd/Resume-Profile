@@ -121,6 +121,20 @@
     background-color: #272727;
     transition: 0.6s;
     position: relative;
+}
+
+.top-home7{
+    text-decoration: none;
+    flex-direction: row;
+    color: #ffe440;
+    border: 0px solid;
+    margin-top: 0px;
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 15px;
+    background-color: #272727;
+    transition: 0.6s;
+    position: relative;
     overflow: hidden;
 }
 
@@ -202,6 +216,20 @@
 }
 
 .top-home6:hover::after{
+    content:'Skills';
+    transition: 0.6s;
+    animation: 0.6s forwards;
+}
+
+.top-home7:hover{
+    background-color: #ffe440;
+    color: #272727;
+    border-radius: 1000px;
+    transition: 0.6s;
+    transform: scale(1.0);
+}
+
+.top-home7:hover::after{
     content:'Contact';
     transition: 0.6s;
     animation: 0.6s forwards;
@@ -279,7 +307,7 @@
 }
 
 .skills-whole{
-    background-color: #6d6c5e91;
+    background-color: #313131;
 }
 
 .skills{
@@ -401,6 +429,21 @@
     transition: 0.6s;
     border-radius: 10px;
     font-weight: 200;
+}
+
+.certificates-whole{
+    display: flex;
+    justify-content: center;
+    background-color: #2c2b2b;
+}
+
+.certificate-title{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px;
+    font-size: 500%;
+    color: #14a76c;
 }
 
 .contact-whole{
