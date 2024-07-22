@@ -338,9 +338,7 @@
 .skills-box2{
     display: flex;
     justify-content: space-evenly;
-    
     border: 2px white solid;
-    
     padding: 0px;
     width: 100px;
     height: 200px;
