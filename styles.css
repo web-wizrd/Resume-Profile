@@ -299,7 +299,7 @@
 .projects{
     display: flex;
     justify-content: space-evenly;
-    border: 1px white solid;
+    border: px white solid;
     height: 100px;
     align-self: start;
     align-content: row;
