@@ -3,11 +3,12 @@
 }
 
 .header{
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
     background-color: #272727;
+    backdrop-filter: blur(30px);
     border-color: #272727;
     filter: blur(100);
 }
@@ -20,6 +21,7 @@
     flex-grow:.8;
     font-size: 70px;
     padding: 35px;
+    animation: typing 2s infinite;
 }
 
 @media(max-width= 427px){
